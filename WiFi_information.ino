@@ -1,8 +1,7 @@
 #include <WiFiNINA.h>
 
-///////please enter your sensitive data in the Secret tab/arduino_secrets.h
-char ssid[] = "Wi-Fi-netwerk van Mats Tanghe";        // your network SSID (name)
-char pass[] = "Mats27Sofie03";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "Your SSID";        // your network SSID (name)
+char pass[] = "Your password";    // your network password (use for WPA, or use as key for WEP)
 int status = WL_IDLE_STATUS;     // the Wifi radio's status
 
 void setup() {
